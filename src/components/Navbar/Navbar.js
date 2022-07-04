@@ -25,11 +25,15 @@ const Navbar = () => {
         <div className="collapse navbar-collapse list-pages " id="navbarNav">
           <ul className="navbar-nav mt-3">
             <li className="nav-item">
-             <Link  className='nav-item' to={"/"}>Inicio</Link>
+             <Link  className='nav-link' to={"/"}>Inicio</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link"to={"/admin"}>admin</Link>
+          
             </li>
             <li className="nav-item">
               <Link className="nav-link"to={"/#servicioshome"}>servicios</Link>
-            
+          
             </li>
             <li className="nav-item">
               <Link className="nav-link" to={"/contacto"}>   contacto</Link>
@@ -37,7 +41,7 @@ const Navbar = () => {
             <li className="nav-item">
               {
                 usuario === null ?
-                  <Link to="/login">
+                  <Link  to="/login">
                     <button className='nav-link button-sesion' >Iniciar sesion <FontAwesomeIcon className='icon-sesion' icon={faUser} />
                     </button>
                   </Link>
