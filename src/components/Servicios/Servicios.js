@@ -15,7 +15,7 @@ const Servicios = () => {
 
     return (
         <div className='servicios-home col-12'>
-            <div className=' servicios-contenedor ' id="servicioshome">
+            <div className='  servicios-contenedor ' id="servicioshome">
                 <div className='row'>
                     {
                         servicios.length === 0 ?
@@ -27,7 +27,7 @@ const Servicios = () => {
                             </div>
                             :
                             servicios.map((servicio, idx) => (
-                                <div className=' col-sm-12 col-md-4 col-lg-4 contenedor-cards' key={idx} >
+                                <div className=' col-sm-12 col-md-6 col-lg-4 contenedor-cards' key={idx} >
                                     <div className="cards-homes" >
                                         <img src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagen}`} alt="sdasd" />
                                         <div className='boton-servicios'>
