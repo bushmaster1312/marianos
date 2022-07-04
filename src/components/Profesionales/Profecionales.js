@@ -41,7 +41,7 @@ const Profecionales = () => {
                             <div class="carousel-inner">
 
                                 <div className='carousel-item active'>
-                                 <img className='imagen-carousel' src={imagen}/>
+                                 <img className='imagen-carousel' src={imagen}  alt="dsdsdd" / >
                                 
                                 </div>
                                 {getProfecio.map((profecionales, idx) => (
