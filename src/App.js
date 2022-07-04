@@ -3,7 +3,7 @@ import Home from "./Pages/Home/Home";
 import Peluqueria from "./Pages/Peluqueria/Peluqueria";
 import Login from "./Pages/login/Login";
 import Register from "./Pages/Home/register";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Context } from "./store/AppContext";
 import Admin from "./Pages/admin/Admin";
 import React from "react";

@@ -1,6 +1,6 @@
 import "./Info.css"
 import React from 'react'
-import esmalte from "../../assets/esmalte.png"
+
 
 
 const Info = () => {

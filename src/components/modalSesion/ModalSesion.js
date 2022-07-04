@@ -1,10 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import React from 'react'
 import styledComponents from 'styled-components'
-import { faXmarkCircle } from '@fortawesome/free-solid-svg-icons'
-import imagenes from "../../assets/page-1.jpeg"
-import FormularioEdit from '../fomularioedit/FormularioEdit'
-import FormUpdate from '../formularioUpdate/FormUpdate'
+
 const ModalSesion = ({ children, estado, cambiarestado }) => {
 
     return (
