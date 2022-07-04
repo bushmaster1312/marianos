@@ -1,0 +1,160 @@
+.footer {
+
+    margin-top: 60px;
+    width: 100%;
+   
+    font-family: 'EB Garamond', serif;
+    color: azure;
+    background-color: #000000e2;
+}
+
+.footer-contenedor{
+    margin-top: 20px;
+}
+
+.footer h5 {
+    text-align: start;
+}
+
+.footer ul {
+    padding: 0
+    
+}
+
+.footer li {
+    list-style: none;
+    text-align: start;
+}
+
+.categorias button {
+    margin-top: 3px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+
+}
+
+.categorias button:hover {
+    background-color: #C99E10;
+    color: #fff;
+    filter: drop-shadow(0px 0px 16px #fefcf5);
+
+
+}
+
+.redes {
+    font-size: 25px;
+}
+
+.redes button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.icon button:hover {
+
+    text-align: center;
+    color: #C99E10;
+    transform: scale(2.0);
+    filter: drop-shadow(0px 0px 16px #fefcf5)
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/*media querys */
+@media screen and ( min-width: 0px) and ( max-width: 767px) {
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 900px;
+        
+        
+    }
+
+   
+    .footer h5 {
+        text-align: center;
+    }
+    
+    .footer ul {
+        padding: 2px;
+        display: inline-block;
+    }
+    
+    .footer li {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .categorias button {
+        margin-top: 3px;
+        background-color: transparent;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+    
+    }
+    
+    .categorias button:hover {
+        background-color: #C99E10;
+        color: #fff;
+        filter: drop-shadow(0px 0px 16px #fefcf5);
+    
+    
+    }
+    
+    .redes {
+        font-size: 30px;
+    }
+    
+    .redes button {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+    }
+    
+    .icon button:hover {
+    
+        text-align: center;
+        color: #C99E10;
+        transform: scale(2.0);
+        filter: drop-shadow(0px 0px 16px #fefcf5)
+    }
+
+
+
+}
+
+
+/* tableta */
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+}
+.footer h5{
+    text-align: center;
+}
+
+.footer ul{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+

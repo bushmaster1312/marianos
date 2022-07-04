@@ -1,0 +1,14 @@
+.register{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-register{
+    
+    width: 500px;
+    height: 900px;
+    border-radius: 30px;
+    background: url(../../../assets/registrate.png);
+    background-size: cover;
+    
+}

@@ -1,0 +1,63 @@
+.servicios-home {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 100px;
+    background-color: rgba(97, 97, 97, 0.294);
+
+}
+
+.cards-homes {
+    margin-bottom: 30px;
+    box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+    width: 300px;
+    height: 480px;
+}
+
+.cards-homes img {
+    width: 300px;
+    height: 450px;
+    position: relative;
+
+}
+
+.servicios-contendor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-cards {
+    margin: 0%;
+}
+
+.cardss-servicio {
+    color: #fff;
+    text-align: center;
+}
+
+
+.boton-servicios {
+
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.887);
+    margin-top: 0px;
+    padding: 5px;
+
+}
+
+.boton-servicios button {
+    border: none;
+    background-color: #f1f1f1;
+
+
+}
+
+.boton-servicios :hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}

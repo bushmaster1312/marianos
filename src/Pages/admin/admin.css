@@ -1,0 +1,45 @@
+.body{
+   
+}
+
+.admin{
+  background-color: rgba(97, 97, 97, 0.294);
+ height: 300vh;
+}
+
+.grup-select{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #15172b;
+    height: 100px;
+    
+}
+.select-creacion{
+ background-color: #15172b;
+ border: none;
+ height: 30px;
+ margin-top: 25px;
+ margin-right: 20px;
+ color: #fff;
+ border: 1px solid #fff;
+}
+
+.modificar-servicios{
+    color: azure;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna-crear-servicio{
+
+}
+.admincard{
+      margin: 20px;
+}
+.card-admin-img{
+    width:180px;
+    height: 120px;
+}

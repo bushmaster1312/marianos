@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-login{
+    width: 500px;
+    height: 900px;
+    border-radius: 30px;
+    background: url(../../assets/page-1.jpeg);
+    background-size: cover;
+    
+  
+}

@@ -1,0 +1,42 @@
+.nav{
+    margin-left: 0;
+    width: 100%;
+}
+.logo-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+.logo-navbar img{
+    margin-top: 70px;
+    width: 170px;
+}
+.navbar-brand{
+    font-family: 'Roboto Flex', sans-serif;
+}
+.button-sesion{
+    border: none;
+}
+.icon-sesion{
+    border: none;
+    justify-content: center;
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+.list-pages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    margin-left: 40px;
+}
+
+.nav{
+   margin-left: 300px;
+}
+.linea-dorada {
+    background-color: rgb(247, 185, 60);
+    width: 200px;
+    height: 3px;
+}

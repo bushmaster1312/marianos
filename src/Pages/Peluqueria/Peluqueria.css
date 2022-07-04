@@ -1,0 +1,83 @@
+.espacio-peluqueria {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.contenedor-categoria {
+    text-align: center;
+  
+}
+
+
+.card-s {
+    font-family: 'Nuosu SIL', serif;
+    border-radius: 4px;
+    
+    height: 450px;
+    width: 350px;
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 9px 12px 12px -1px rgba(0, 0, 0, 0.42);
+
+}
+
+.cardss-peluqueria {
+    margin-top: 100px;
+    background-color: rgba(27, 26, 26, 0.619);
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.cardss-peluqueria p {
+    top: 0;
+    font-size: 20px;
+}
+
+.loading-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-loading {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: darkgoldenrod;
+}
+
+.boton-turno {
+    display: flex;
+    margin-top: 162px;
+
+}
+
+.boton-turno :hover {
+    background-color: rgb(249, 183, 76);
+}
+
+.boton-turno button {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(21, 20, 20, 0.888);
+    border: none;
+
+}
+
+.peluqueria-h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Nuosu SIL', serif;
+}

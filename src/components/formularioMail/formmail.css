@@ -1,0 +1,16 @@
+.contenedor-forms{
+    background-color: rgb(247, 194, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.formularios-email{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
