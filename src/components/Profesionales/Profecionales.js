@@ -11,7 +11,7 @@ import imagen from "../../assets/acas.png"
 
 
 const Profecionales = () => {
-    const [getProfecio, setGetProfecio] = useState([])
+    
 
     const getProfecionale = (ruta) => {
         axios.get(`${ruta}`)
@@ -23,7 +23,7 @@ const Profecionales = () => {
     useEffect(() => {
         getProfecionale(`${BASE_URL}/profecionales`)
     }, [])
-
+   const [getProfecio, setGetProfecio] = useState([])
     console.log(getProfecio)
 
 

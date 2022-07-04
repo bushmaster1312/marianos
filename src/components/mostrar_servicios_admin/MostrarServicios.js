@@ -9,7 +9,7 @@ import './mostrarservicios.css'
 
 
 const MostrarServicios = () => {
-    const { serviciosadmin, getServiciosAdmin ,  servicios, getServicios } = useContext(Context)
+    const { serviciosadmin, getServiciosAdmin ,  getServicios } = useContext(Context)
   const deleteServicio = async (id) => {
     await axios.delete(`${BASE_URL}/servicios/${id}`)
     getServiciosAdmin(`${BASE_URL}/admin`)
@@ -31,7 +31,7 @@ const MostrarServicios = () => {
                         <h1>No hay contenido</h1> :
                         serviciosadmin.map((servicio, idx) => (
                             <div className="card admincard mt-5" style={{ width: "13rem" }} key={idx}>
-                                <img src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagencategoria}`}  />
+                                <img src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagencategoria}`} alt="asas"  />
                                 <div className="card-body">
                                     <h5 className="card-title">{servicio.categoria}</h5>
                                     <p className="card-text">{servicio.descripcion}</p>

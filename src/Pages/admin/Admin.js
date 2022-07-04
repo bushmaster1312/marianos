@@ -20,11 +20,11 @@ const Admin = () => {
 
   const elements = ["crear servicios", "crear categorias", "crear profecionales"]
   const [cambiarElemento, setCambiarElemento] = useState("")
-  const { serviciosadmin, getServiciosAdmin, servicios, getServicios } = useContext(Context)
-  const deleteServicio = async (id) => {
-    await axios.delete(`${BASE_URL}/servicios/${id}`)
-    getServiciosAdmin(`${BASE_URL}/admin`)
-  }
+  const {  getServiciosAdmin, getServicios } = useContext(Context)
+  // const deleteServicio = async (id) => {
+  //   await axios.delete(`${BASE_URL}/servicios/${id}`)
+  //   getServiciosAdmin(`${BASE_URL}/admin`)
+  // }
   useEffect(() => {
     getServiciosAdmin(`${BASE_URL}/admin`)
     getServicios(`${BASE_URL}/servicios`)

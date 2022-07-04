@@ -105,7 +105,7 @@ const FormUpdate = () => {
                                 >
                                     <option  value={" "} label="seleccion categoria"></option>
                                     {
-                                        servicios.length == 0 ? <div><p >nos hay datos</p></div> : servicios.map((servicio, idx) => (
+                                        servicios.length === 0 ? <div><p >nos hay datos</p></div> : servicios.map((servicio, idx) => (
                                             <option key={idx} value={`${servicio.idservicios}`} label={`${servicio.idservicios}.${servicio.categorias}`}>
                                                 {Number(`${servicio.idservicios}`)}
                                             </option>

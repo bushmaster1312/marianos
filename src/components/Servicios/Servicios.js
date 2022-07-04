@@ -7,12 +7,12 @@ import "./Servicios.css"
 
 const Servicios = () => {
     const { servicios, getServicios } = useContext(Context)
-
-
-
     useEffect(() => {
         getServicios(`${BASE_URL}/servicios`)
     }, [])
+   
+
+
     return (
         <div className='servicios-home col-12'>
             <div className='container servicios-contenedor ' id="servicioshome">
