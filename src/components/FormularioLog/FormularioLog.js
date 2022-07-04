@@ -5,11 +5,12 @@ import "./FormularioLog.css"
 import { Context } from '../../store/AppContext'
 import Swal from 'sweetalert2'
 import { BASE_URL } from '../../utils/BASE_URL'
+import { Link } from 'react-router-dom'
 
 
 const FormularioLog = () => {
-    const { usuario,setUsuario } = useContext(Context)
-       console.log(usuario)
+    const { usuario, setUsuario } = useContext(Context)
+    console.log(usuario)
     return (
         <>
             <Formik
@@ -21,7 +22,7 @@ const FormularioLog = () => {
                     axios.post(`${BASE_URL}/login`, {
                         email: value.correo,
                         password: value.password
-                    }).then(res =>  {
+                    }).then(res => {
 
                         if (res.data.error) {
                             Swal.fire({
@@ -30,13 +31,13 @@ const FormularioLog = () => {
                                 text: res.data.msg
                             })
                         } else {
-                         setUsuario({
-                            correo: res.data.user.email,
-                            nombre: res.data.user.nombre,
-                            apellido: res.data.user.apellido,
-                            type: res.data.user.type
-                         })
-                          
+                            setUsuario({
+                                correo: res.data.user.email,
+                                nombre: res.data.user.nombre,
+                                apellido: res.data.user.apellido,
+                                type: res.data.user.type
+                            })
+
                         }
                     })
                 }}>
@@ -51,7 +52,7 @@ const FormularioLog = () => {
                                     value={values.correo}
                                     onChange={handleChange}
                                     onBlur={handleBlur} >
-                                    
+
                                 </input>
                             </div>
                             <div className='form'>
@@ -66,7 +67,11 @@ const FormularioLog = () => {
                                 </input>
                             </div>
                         </div>
-                        <button  className='button-submit' type='submit'>Iniciar sesion</button>
+                        <button className='button-submit' type='submit'>Iniciar sesion</button>
+                        <Link to = "/register">
+                            <button className='button-submit-Logged' type='submit'>Registrate</button>
+                        </Link>
+
                     </form>
                 )}
             </Formik>

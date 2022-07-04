@@ -24,7 +24,7 @@ const Profecionales = () => {
         getProfecionale(`${BASE_URL}/profecionales`)
     }, [])
    const [getProfecio, setGetProfecio] = useState([])
-    console.log(getProfecio)
+
 
 
     return (
@@ -37,16 +37,16 @@ const Profecionales = () => {
                 {
                     getProfecio.length === 0 ?
                         <h1> cargando </h1> :
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner">
 
                                 <div className='carousel-item active'>
                                  <img className='imagen-carousel' src={imagen}  alt="dsdsdd" / >
                                 
                                 </div>
                                 {getProfecio.map((profecionales, idx) => (
-                                    <div className='carousel-item '>
-                                        <div key={idx} className="profile-card-4 text-center ">
+                                    <div key={idx} className='carousel-item '>
+                                        <div  className="profile-card-4 text-center ">
                                             <img src={`${BASE_IMG}/${profecionales.imagen}`}  alt="asadsasd"/>
                                             <div className="profile-content">
                                                 <div className="profile-description">
@@ -62,13 +62,13 @@ const Profecionales = () => {
                                     </div>
                                 ))}
 
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
+                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Next</span>
                                 </button>
                             </div>
 

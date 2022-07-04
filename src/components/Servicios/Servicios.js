@@ -15,7 +15,7 @@ const Servicios = () => {
 
     return (
         <div className='servicios-home col-12'>
-            <div className='container servicios-contenedor ' id="servicioshome">
+            <div className=' servicios-contenedor ' id="servicioshome">
                 <div className='row'>
                     {
                         servicios.length === 0 ?

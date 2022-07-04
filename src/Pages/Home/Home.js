@@ -25,7 +25,6 @@ const Home = () => {
     const loggedUserJSON = window.localStorage.getItem('correo')
     if (loggedUserJSON) {
       const user = JSON.parse(loggedUserJSON)
-      console.log(user)
       setUsuario(user)
     }
   }, [])
