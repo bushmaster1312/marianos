@@ -29,7 +29,7 @@ const Servicios = () => {
                             servicios.map((servicio, idx) => (
                                 <div className=' col-xl-4 contenedor-cards' key={idx} >
                                     <div className="cards-homes" >
-                                        <img src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagen}`} />
+                                        <img src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagen}`} alt="sdasd" />
                                         <div className='boton-servicios'>
                                             <Link to={`${servicio.categorias}`}><button>Mostrar Mas</button>    </Link>
                                         </div>

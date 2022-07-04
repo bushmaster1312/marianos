@@ -45,10 +45,10 @@ const Footer = () => {
                         <div className='redes'>
                             <ul>
                                 
-                                <li className='icon'> <a href='https://instagram.com/mas_miradas?igshid=YmMyMTA2M2Y=' target="_blank"><button><FontAwesomeIcon icon={faInstagram} /></button></a></li>
-                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c' target="_blank"><button><FontAwesomeIcon icon={faFacebook} /></button></a></li>
-                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c' target="_blank"><button><FontAwesomeIcon icon={faTiktok} /></button></a></li>
-                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c' target="_blank"><button><FontAwesomeIcon icon={faWhatsapp} /></button></a></li>
+                                <li className='icon'> <a href='https://instagram.com/mas_miradas?igshid=YmMyMTA2M2Y=' ><button><FontAwesomeIcon icon={faInstagram} /></button></a></li>
+                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c' ><button><FontAwesomeIcon icon={faFacebook} /></button></a></li>
+                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c'><button><FontAwesomeIcon icon={faTiktok} /></button></a></li>
+                                <li className='icon'> <a href='https://m.facebook.com/Mas-miradas-111828666915446/?ref=py_c'><button><FontAwesomeIcon icon={faWhatsapp} /></button></a></li>
 
 
 

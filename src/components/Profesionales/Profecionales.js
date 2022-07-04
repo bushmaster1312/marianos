@@ -47,7 +47,7 @@ const Profecionales = () => {
                                 {getProfecio.map((profecionales, idx) => (
                                     <div className='carousel-item '>
                                         <div key={idx} className="profile-card-4 text-center ">
-                                            <img src={`${BASE_IMG}/${profecionales.imagen}`} />
+                                            <img src={`${BASE_IMG}/${profecionales.imagen}`}  alt="asadsasd"/>
                                             <div className="profile-content">
                                                 <div className="profile-description">
                                                     <h2>{profecionales.nombre}</h2>
