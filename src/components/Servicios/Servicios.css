@@ -87,7 +87,7 @@
         background-color: rgba(174, 177, 177, 0.341);
         padding-top: 30px;
         padding-bottom: 30px;
-       
+
     }
 
     .contenedor-serv {
@@ -107,13 +107,13 @@
         height: 352px;
         border-radius: 10px;
         margin-bottom: 90px;
-       
+
     }
 
     .cards-home img {
         width: 100%;
         height: 200px;
-       
+
     }
 
     .cards-home p {
@@ -128,16 +128,21 @@
         width: 100%;
         text-align: center;
         margin-top: 12px;
-  
+
     }
 
     .boton-servicios button {
         font-family: 'Cinzel', serif;
         border: none;
-        background-color: #FF9226;
+        background: rgb(255, 197, 140);
+        background: linear-gradient(71deg, rgba(255, 197, 140, 0.9808298319327731) 16%, rgba(255, 146, 38, 1) 47%);
         border-radius: 5px;
         color: #fff;
-        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
 
     .boton-servicios button:hover {
