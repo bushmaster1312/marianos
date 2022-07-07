@@ -21,7 +21,7 @@ const Formservicio = () => {
                     formdata.append('imagen', value.file)
 
                     axios({
-                        url: ` ${BASE_URL}/admin/create `, method: "POST",
+                        url: `${BASE_URL}/admin/create`, method: "POST",
                         headers: {
                         },
                         data: formdata
