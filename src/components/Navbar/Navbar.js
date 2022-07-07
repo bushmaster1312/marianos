@@ -29,26 +29,26 @@ const Navbar = () => {
         <div className="collapse navbar-collapse list-pages " id="navbarNav">
           <ul className="navbar-nav mt-3">
             <li className="nav-item">
-              <Link className='nav-link' to={"/"}>Inicio</Link>
+              <Link className='nav-link' to={"/"}><b>Inicio</b></Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to={"/#servicioshome"}>servicios</Link>
+              <Link className="nav-link" to={"/#servicioshome"}><b>servicios</b></Link>
 
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/contacto"}>   contacto</Link>
+              <Link className="nav-link" to={"/contacto"}> <b> contacto</b> </Link>
             </li>
             <li className="nav-item">
               {
                 usuario === null ?
                   <Link to="/login">
-                    <button className='nav-link button-sesion' >Iniciar sesion <FontAwesomeIcon className='icon-sesion' icon={faUser} />
+                    <button className='nav-link button-sesion' ><b>Iniciar sesion</b>  <FontAwesomeIcon className='icon-sesion' icon={faUser} />
                     </button>
                   </Link>
                   :
-                  <Link to="/login">
-                    <button onClick={() => handleLoggOut()} className='nav-link button-sesion' >cerrar sesion {user.usuario.type} <FontAwesomeIcon className='icon-sesion' icon={faUser} />
+                  <Link className='nav_link' to="/login">
+                    <button onClick={() => handleLoggOut()} className='nav-link button-sesion' > <b>cerrar sesion</b>  {user.usuario.nombre} <FontAwesomeIcon className='icon-sesion' icon={faUser} />
                     </button>
                   </Link>
               }
@@ -56,7 +56,7 @@ const Navbar = () => {
             <li className="nav-item">
               {
                 usuario=== null ? <p></p> : 
-                user.usuario.type === 'Cliente' ?<Link className="nav-link" to={"/admin"}>admin</Link> :
+                user.usuario.type === 'Cliente' ?<Link className="nav-link" to={"/admin"}> <b>Admin</b></Link> :
                 <p></p>
                   
               }

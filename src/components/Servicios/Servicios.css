@@ -1,4 +1,4 @@
-.servicios-contenedor {
+/* .servicios-contenedor {
     background: rgba(83, 82, 82, 0.699);
 
 }
@@ -70,6 +70,79 @@
         background-color: black;
         text-align: center;
         align-items: center;
+    }
+
+
+} */
+
+.servicios-contenedor {
+    background: rgba(154, 153, 153, 0.546);
+    width: 100%;
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .servicios-contenedor {
+        background-color: rgba(174, 177, 177, 0.341);
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+    }
+
+    .contenedor-serv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cardss-contenedor {
+        width: 100%;
+    }
+
+    .cards-home {
+        margin: 0 auto;
+        width: 80%;
+        height: 352px;
+        border-radius: 10px;
+        margin-bottom: 90px;
+       
+    }
+
+    .cards-home img {
+        width: 100%;
+        height: 200px;
+       
+    }
+
+    .cards-home p {
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+    }
+
+    .boton-servicios {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+  
+    }
+
+    .boton-servicios button {
+        font-family: 'Cinzel', serif;
+        border: none;
+        background-color: #FF9226;
+        border-radius: 5px;
+        color: #fff;
+        
+    }
+
+    .boton-servicios button:hover {
+
+        background-color: aqua;
     }
 
 

@@ -81,7 +81,7 @@
   right: 0px;
   background-color: #FFF;
   z-index: 0;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
 }
 
 .profile-card-4:hover img {

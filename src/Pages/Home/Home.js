@@ -41,10 +41,10 @@ const Home = () => {
       <div>
         <Info />
       </div>
-      <div className='servicios'>
+     
         <Servicios />
    
-      </div>
+      
       <section className='profecionaless'>
         <Profecionales />
       </section>

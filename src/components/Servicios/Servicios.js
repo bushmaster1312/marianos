@@ -30,6 +30,7 @@ const Servicios = () => {
                             <div className='cardss-contenedor ' key={idx} >
                                 <div className="cards-home" >
                                     <img className='imagen' src={`${BASE_URL}/servicios/aws/imagen/${servicio.imagen}`} alt="sdasd" />
+                                     <p>{servicio.categorias} </p>
                                     <div className='boton-servicios'>
                                         <Link to={`${servicio.categorias}`}><button>Mostrar Mas</button>    </Link>
                                     </div>

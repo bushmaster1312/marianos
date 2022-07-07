@@ -1,15 +1,18 @@
 .contenedor-info{
     width: 100vw;
     height: 150px;
-    color: rgb(218, 133, 7);
+  
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contenedor-info h2{
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
     font-size: 30px;
-    text-decoration: underline 3px;
+    text-decoration: underline 2px;
+    color: #FF9226;
 }
 
 /* en esta parte modifico el contenedor principal de la INFO de los servicios */
