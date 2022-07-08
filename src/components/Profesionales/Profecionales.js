@@ -11,8 +11,8 @@ import imagen from "../../assets/acas.png"
 
 
 const Profecionales = () => {
-    
 
+    const [getProfecio, setGetProfecio] = useState([])
     const getProfecionale = (ruta) => {
         axios.get(`${ruta}`)
             .then(data => {
@@ -23,8 +23,8 @@ const Profecionales = () => {
     useEffect(() => {
         getProfecionale(`${BASE_URL}/profecionales`)
     }, [])
-   const [getProfecio, setGetProfecio] = useState([])
-     console.log(getProfecio)
+
+
 
 
     return (
@@ -41,13 +41,13 @@ const Profecionales = () => {
                             <div className="carousel-inner">
 
                                 <div className='carousel-item active'>
-                                 <img className='imagen-carousel' src={imagen}  alt="dsdsdd" / >
-                                
+                                    <img className='imagen-carousel' src={imagen} alt="dsdsdd" />
+
                                 </div>
                                 {getProfecio.map((profecionales, idx) => (
                                     <div key={idx} className='carousel-item '>
-                                        <div  className="profile-card-4 text-center ">
-                                            <img src={`${BASE_IMG}/${profecionales.imagen}`}  alt="asadsasd"/>
+                                        <div className="profile-card-4 text-center ">
+                                            <img src={`${BASE_IMG}/${profecionales.imagen}`} alt="asadsasd" />
                                             <div className="profile-content">
                                                 <div className="profile-description">
                                                     <h2>{profecionales.nombre}</h2>

@@ -22,10 +22,10 @@ const Formservicio = () => {
 
                     axios({
                         url: `${BASE_URL}/admin/create`, method: "POST",
-                        headers:{
-                              "content-type" :"multipart/form-data"
-                        },
-                        data: formdata
+                        headers: {
+                            "content-type": "multipart/form-data"
+                        },data: formdata
+                       
                     }).then(res => console.log(res.data))
 
                 }}>
