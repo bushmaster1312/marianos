@@ -22,8 +22,7 @@ const Formservicio = () => {
 
                     axios({
                         url: `${BASE_URL}/admin/create`, method: "POST",
-                        headers: {
-                        },
+                       
                         data: formdata
                     }).then(res => console.log(res.data))
 
