@@ -24,7 +24,7 @@ const Profecionales = () => {
         getProfecionale(`${BASE_URL}/profecionales`)
     }, [])
    const [getProfecio, setGetProfecio] = useState([])
-
+     console.log(getProfecio)
 
 
     return (

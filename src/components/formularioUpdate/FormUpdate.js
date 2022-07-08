@@ -46,6 +46,7 @@ const FormUpdate = () => {
                         axios({
                             url: `${BASE_URL}/servicios/${id}`, method: "PUT",
                             headers: {
+                               
                             },
                             data: `${id}` && formdata
                         }).then(res => console.log(res.data))
@@ -54,6 +55,7 @@ const FormUpdate = () => {
                         axios({
                             url: `${BASE_URL}/servicios`, method: "POST",
                             headers: {
+                                
                             },
                             data: formdata
                         }).then(() => getServiciosAdmin(`${BASE_URL}/admin`))
