@@ -9,24 +9,25 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className=" col-xs-12  col-sm-12 col-lg-6 ">
-            <h2 className='mb-5 hero-bienvenidos ' > 
-            <b>BIENVENIDOS</b> 
-            <div className='hr-hero'></div>
+            <h2 className='mb-5 hero-bienvenidos ' >
+              <b>BIENVENIDOS</b>
+              <div className='hr-hero'></div>
             </h2>
-            
-            <p className='mb-5 mt-5 hero-texto'> 
-              estamos orgullosas de que elijas mas miradas para el cuidado de tu
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos
-              de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias
-              desde el año 1500, cuando un impresor N. del T. persona que se dedica a la imprenta
-              desconocido usó una galería de textos y los mezcló de tal manera que logró hacer
-              un libro de textos especimen.
-              No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documento
+
+            <p className='mb-5 mt-5 hero-texto'>
+              En Más miradas sabemos
+              que tu imagen personal lo es todo
+              para vos! Amamos completa
+              tu estilo y compartimos la
+              sensación de felicidad que sentís
+              cuando te mirás al espejo y te ves perfecta
+              , porque entendemos la seguridad que te transmite
+              tu propia imagen en ese momento 🤍
 
             </p>
           </div>
           <div className="col-xs-12  col-sm-12 col-lg-6  ">
-            <img className='imagen-hero' src={hero} alt=""/>
+            <img className='imagen-hero' src={hero} alt="" />
           </div>
 
         </div>
