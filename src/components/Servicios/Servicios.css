@@ -283,6 +283,16 @@
         padding-right: 20px;
 
     }
+    .productos{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(124, 123, 123, 0.287);
+    }
+    .productos img {
+     width: 100px;
+    }
 
   
 
