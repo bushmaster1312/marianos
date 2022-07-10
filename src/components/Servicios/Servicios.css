@@ -221,8 +221,10 @@
 
 @media screen and (max-width: 480px) {
     .servicios-contenedor {
-        background-color: rgba(249, 202, 234, 0.327);
-        padding-top: 30px;
+       background-image: url(https://w0.peakpx.com/wallpaper/263/777/HD-wallpaper-girl-looks-portrait-face.jpg);
+       background-attachment: fixed;
+       background-size:cover;
+       padding-top: 30px;
         padding-bottom: 30px;
 
     }
