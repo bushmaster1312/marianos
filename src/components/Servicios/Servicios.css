@@ -224,6 +224,8 @@
        background-image: url(https://w0.peakpx.com/wallpaper/263/777/HD-wallpaper-girl-looks-portrait-face.jpg);
        background-attachment: fixed;
        background-size:cover;
+       background-position: center center;
+       background-repeat: no-repeat;
        padding-top: 30px;
         padding-bottom: 30px;
 
