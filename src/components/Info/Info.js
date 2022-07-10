@@ -12,8 +12,8 @@ const Info = () => {
         <h2>Nuestros Servicios</h2>
       </div>
       <div className="container mb-5">
-        <div className="row">
-          <div className="col-xs-12 col-sm-12 col-lg-4   info-servicios">
+        <div className="info-contenedor">
+          <div className=" info-servicios">
             <img src={esmalte} alt="sss" />
             <div>
               <h3 className="subtitulo-info"> Manicura </h3>
@@ -24,7 +24,7 @@ const Info = () => {
               </p>
             </div>
           </div>
-          <div className="col-xs-12col-sm-12 col-lg-4   info-servicios">
+          <div className="   info-servicios">
             <img src={corte} alt="sss" />
             <div>
               <h3 className="subtitulo-info"> Peluqueria</h3>
@@ -35,7 +35,7 @@ const Info = () => {
               </p>
             </div>
           </div>
-          <div className=" col-xs-12 col-sm-12 col-lg-4  info-servicios">
+          <div className="   info-servicios">
             <img src={esmalte} alt="ss" />
 
             <div>

@@ -1,37 +1,142 @@
-.contenedor-info{
+.contenedor-info {
     width: 100%;
     height: 150px;
-  
+
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contenedor-info h2{
+
+.contenedor-info h2 {
     font-family: 'Cinzel', serif;
     font-weight: bolder;
     font-size: 30px;
-    text-decoration: underline 3px #FF9226 ;
+    text-decoration: underline 3px #FF9226;
 }
 
 /* en esta parte modifico el contenedor principal de la INFO de los servicios */
 
-.info-servicios{
-     text-align: center;
-     align-items: center;
+.info-servicios {
+
+    align-items: center;
     justify-content: center;
 }
 
-.info-servicios img{
+.info-servicios img {
     width: 80px;
-    
+
 }
 
 
-.subtitulo-info{
+.subtitulo-info {
     font-family: 'Cinzel', serif;
     font-weight: bolder;
-  
+
 
 }
 
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .info-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .info-servicios {
+        width: 30%;
+        height: 290px;
+        margin: 5px;
+        text-align: center;
+        margin-top: 20px;
+
+
+    }
+
+    .info-servicios p {
+        text-align: start;
+     
+
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    .info-servicios {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .info-servicios h3 {
+        text-align: center;
+    }
+
+    .info-servicios p {
+        text-align: start;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .info-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .info-servicios {
+        width: 30%;
+        height: 290px;
+        margin: 5px;
+        text-align: center;
+        margin-top: 20px;
+
+
+    }
+
+    .info-servicios p {
+        text-align: start;
+
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    .info-servicios {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .info-servicios h3 {
+        text-align: center;
+    }
+
+    .info-servicios p {
+        text-align: start;
+
+    }
+
+}
