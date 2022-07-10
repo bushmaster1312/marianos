@@ -1,26 +1,34 @@
-
-
-.hero-contenedor{
+.hero-contenedor {
     margin-top: 50px;
 }
 
-.imagen-hero{
+.imagen-hero {
     width: 100%;
 }
 
-.hero-bienvenidos{
+.hero-bienvenidos {
     font-family: 'Cinzel', serif;
-    color: #FF9226;
-}  
 
-.hero-texto{
+}
+
+.hr-hero {
+    background-color: #FF9226;
+    margin: 0;
+    width: 100px;
+    height: 3px;
+    border: none;
+    color: #FF9226;
+}
+
+.hero-texto {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
     font-weight: bolder;
-    
+
+
 }
 
-.subtitulo-hero{
+.subtitulo-hero {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bolder;
     font-size: 30px;

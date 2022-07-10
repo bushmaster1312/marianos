@@ -16,7 +16,7 @@ const Info = () => {
           <div className="col-xs-12 col-sm-12 col-lg-4   info-servicios">
             <img src={esmalte} alt="sss" />
             <div>
-              <h3 className="subtitulo-hero"> Manicura </h3>
+              <h3 className="subtitulo-info"> Manicura </h3>
               <p>
                 Incluso el Señalador todopoderoso
                 no tiene control sobre los textos ciegos,
@@ -27,7 +27,7 @@ const Info = () => {
           <div className="col-xs-12col-sm-12 col-lg-4   info-servicios">
             <img src={corte} alt="sss" />
             <div>
-              <h3 className="subtitulo-hero"> Peluqueria</h3>
+              <h3 className="subtitulo-info"> Peluqueria</h3>
               <p>
                 Incluso el Señalador todopoderoso
                 no tiene control sobre los textos ciegos,
@@ -39,7 +39,7 @@ const Info = () => {
             <img src={esmalte} alt="ss" />
 
             <div>
-              <h3 className="subtitulo-hero">pestañas</h3>
+              <h3 className="subtitulo-info">pestañas</h3>
               <p>
                 Incluso el Señalador todopoderoso
                 no tiene control sobre los textos ciegos,

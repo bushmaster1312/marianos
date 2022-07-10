@@ -9,7 +9,11 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className=" col-xs-12  col-sm-12 col-lg-6 ">
-            <h2 className='mb-5 hero-bienvenidos ' > <b>BIENVENIDOS</b></h2>
+            <h2 className='mb-5 hero-bienvenidos ' > 
+            <b>BIENVENIDOS</b> 
+            <div className='hr-hero'></div>
+            </h2>
+            
             <p className='mb-5 mt-5 hero-texto'> 
               estamos orgullosas de que elijas mas miradas para el cuidado de tu
               Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos
