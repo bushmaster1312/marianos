@@ -82,17 +82,17 @@
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px) {
-
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
     .servicios-contenedor {
         height: auto;
         background-color: rgba(174, 177, 177, 0.341);
         display: flex;
-        
         flex-wrap: wrap;
+        justify-content: center;
 
 
     }
+
     .cards-home {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -139,7 +139,94 @@
 
     }
 
-   
+    .productos {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(124, 123, 123, 0.287);
+    }
+
+    .productos img {
+        width: 120px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .servicios-contenedor {
+        height: auto;
+        background-color: rgba(174, 177, 177, 0.341);
+        display: flex;
+
+        flex-wrap: wrap;
+
+
+    }
+
+    .cards-home {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 30%;
+        height: 350px;
+        border-radius: 10px;
+        background-color: #fff;
+
+
+    }
+
+
+
+    .cards-home img {
+        width: 100%;
+        height: 250px;
+
+
+    }
+
+    .cards-home p {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+    }
+
+    .boton-servicios button {
+        font-family: 'Cinzel', serif;
+        font-size: 12px;
+        border: none;
+        background: rgb(255, 197, 140);
+        background: linear-gradient(71deg, rgba(255, 197, 140, 0.9808298319327731) 16%, rgba(255, 146, 38, 1) 47%);
+        border-radius: 5px;
+        color: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-left: 40px;
+
+
+    }
+    .productos {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(124, 123, 123, 0.287);
+    }
+
+    .productos img {
+        width: 100px;
+    }
+
+
+
 }
 
 
@@ -213,6 +300,19 @@
         background-color: aqua;
     }
 
+    .productos {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(124, 123, 123, 0.287);
+    }
+
+    .productos img {
+        width: 100px;
+    }
+
+
 
 }
 
@@ -221,12 +321,12 @@
 
 @media screen and (max-width: 480px) {
     .servicios-contenedor {
-       background-image: url(https://w0.peakpx.com/wallpaper/263/777/HD-wallpaper-girl-looks-portrait-face.jpg);
-       background-attachment: fixed;
-       background-size:cover;
-       background-position: center center;
-       background-repeat: no-repeat;
-       padding-top: 30px;
+        background-image: url(../../assets/fondo22.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-top: 30px;
         padding-bottom: 30px;
 
     }
@@ -252,7 +352,7 @@
     .cards-home img {
         width: 100%;
         height: 300px;
-        
+
 
     }
 
@@ -283,17 +383,19 @@
         padding-right: 20px;
 
     }
-    .productos{
+
+    .productos {
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
         background-color: rgba(124, 123, 123, 0.287);
     }
+
     .productos img {
-     width: 100px;
+        width: 100px;
     }
 
-  
+
 
 }

@@ -36,6 +36,34 @@
 
 }
 
+@media screen and (min-width: 1279px) and (max-width: 1921px) {
+    .info-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .info-servicios {
+        width: 30%;
+        height: 290px;
+        margin: 5px;
+        text-align: center;
+        margin-top: 20px;
+
+
+    }
+
+    .info-servicios p {
+        text-align: start;
+     
+
+    }
+
+
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 
     .info-contenedor {

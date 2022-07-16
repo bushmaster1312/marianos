@@ -24,6 +24,9 @@
 }
 .button-sesion{
     border: none;
+    background-color: rgb(255, 153, 20);
+    margin-top: 6px;
+    
 }
 .icon-sesion{
     border: none;
@@ -48,3 +51,9 @@
     width: 200px;
     height: 3px;
 }
+
+.list-pages{
+    background-color: rgb(255, 153, 20);
+}
+
+

@@ -32,7 +32,7 @@
     margin-top: 3px;
     background-color: transparent;
     border-radius: 5px;
-    border: 2px double  #C99E10;
+    border: 2px double #C99E10;
     color: #fff;
 
 }
@@ -70,6 +70,280 @@
 
 /*media querys */
 
+@media screen and (min-width: 768px) and (max-width: 1921px) {
+    .contenedor-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-miradas {
+        width: 25%;
+        height: 150px;
+
+        text-align: center;
+    }
+    .footer-miradas h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+    .footer-privacidad {
+      display: none;
+    }
+
+   
+   
+    .copyright {
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .footer-categorias {
+        width: 25%;
+    }
+
+    .footer-categorias h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-categorias ul {
+        width: 100%;
+        display: flex;
+    }
+
+    .footer-categorias li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-categorias button {
+        width: 70px;
+        color: #fff;
+        background: transparent;
+        border: 5px double #C99E10;
+        margin-top: 10px;
+        font-size: 10px;
+
+
+    }
+
+    .footer-categorias button:hover {
+        text-align: center;
+        color: #fff;
+        transform: scale(1.1);
+        filter: drop-shadow(0px 0px 16px #fefcf5)
+    }
+
+
+
+  
+  
+
+    .footer-redes h5 {
+        text-align: center;
+    }
+
+    .footer-redes {
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .redes {
+        
+        align-items: center;
+    }
+
+    .footer-redes ul {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+
+
+    }
+
+    .footer-redes li {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .footer-redes button {
+
+
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .icon button:hover {
+
+
+
+        transform: scale(1.2);
+
+    }
+
+    .footer-ubicacion {
+      margin-top: 20px;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 491px) and (max-width: 768px) {
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .footer-miradas {
+        width: 50%;
+        height: 150px;
+
+        text-align: center;
+    }
+
+    .footer-miradas h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .footer-categorias {
+        width: 50%;
+    }
+
+    .footer-categorias h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-categorias ul {
+        width: 100%;
+        display: flex;
+    }
+
+    .footer-categorias li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-categorias button {
+        width: 70px;
+        color: #fff;
+        background: transparent;
+        border: 5px double #C99E10;
+        margin-top: 10px;
+        font-size: 10px;
+
+
+    }
+
+    .footer-categorias button:hover {
+        text-align: center;
+        color: #fff;
+        transform: scale(1.1);
+        filter: drop-shadow(0px 0px 16px #fefcf5)
+    }
+
+
+
+    .footer-privacidad {
+        width: 50%;
+        text-align: center;
+    }
+
+    .footer-privacidad h5 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .footer-redes h5 {
+        text-align: center;
+    }
+
+    .footer-redes {
+        width: 50%;
+    }
+
+    .redes {
+        align-items: center;
+    }
+
+    .footer-redes ul {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+
+
+    }
+
+    .footer-redes li {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .footer-redes button {
+
+
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .icon button:hover {
+
+
+
+        transform: scale(1.2);
+
+    }
+
+    .footer-ubicacion {
+        display: none;
+    }
+
+    .copyright {
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+
+
+}
 
 @media screen and (max-width: 480px) {
 
@@ -110,11 +384,11 @@
         width: 100px;
         color: #fff;
         background: transparent;
-     
-        border: 5px double  #C99E10;
+
+        border: 5px double #C99E10;
         margin-top: 10px;
-        
-       
+
+
     }
 
     .footer-categorias button:hover {
@@ -153,12 +427,12 @@
     }
 
     .footer-redes button {
-        
+
         justify-content: center;
         border: none;
         border-radius: 5px;
         margin-top: 5px;
-    
+
         color: #fff;
         background-color: transparent;
     }

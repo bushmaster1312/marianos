@@ -42,13 +42,13 @@ const Navbar = () => {
             <li className="nav-item">
               {
                 usuario === null ?
-                  <Link to="/login">
+                  <Link className='nav-link' to="/login">
                     <button className='nav-link button-sesion' ><b>Iniciar sesion</b>  <FontAwesomeIcon className='icon-sesion' icon={faUser} />
                     </button>
                   </Link>
                   :
                   <Link className='nav_link' to="/login">
-                    <button onClick={() => handleLoggOut()} className='nav-link button-sesion' > <b>cerrar sesion</b>  {user.usuario.nombre} <FontAwesomeIcon className='icon-sesion' icon={faUser} />
+                    <button className=' button-sesion'  onClick={() => handleLoggOut()}> <b>cerrar sesion</b>  <FontAwesomeIcon className='icon-sesion' icon={faUser} />
                     </button>
                   </Link>
               }

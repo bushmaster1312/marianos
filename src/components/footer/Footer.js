@@ -60,7 +60,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="footer-ubicacion">
                         <h5>UBICACÍON</h5>
 
                     </div>
