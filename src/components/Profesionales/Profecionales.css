@@ -1,91 +1,59 @@
-.profecionales{
+.profecionales {
+  margin-top: 100px;
   text-align: center;
   background-color: rgba(245, 245, 245, 0.895);
-  height: 100vh;
+  height: auto;
+
 }
 
-.imagen-carousel{
-  width: 300px;
-  height: 400px;
+.profecionales h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  text-decoration-line: underline  ;
 }
 
 
-
-.profile-card-4 {
-  max-width: 300px;
-  height: 400px;
+.cards {
+  margin-top: 10px;
+  width: 200px;
+  height: 350px;
+  border-radius: 10px;
   background-color: #FFF;
-  border-radius: 5px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  position: relative;
-  margin: 10px auto;
-  cursor: pointer;
+
 }
 
-.profile-card-4 img {
-  transition: all 0.22s linear;
-  width: 100%;
- 
+.cards img {
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 500px;
+  border: 5px double #FF9226;
+
 }
 
-.profile-card-4 .profile-content {
-  position: relative;
-  padding: 15px;
-  background-color: #FFF;
+
+.cards h3 {
+  padding-top: 40px;
 }
 
-.profile-card-4 .profile-name {
-  font-weight: bold;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: -70px;
-  color: rgb(0, 0, 0);
-  font-size: 17px;
+.cards button {
+  font-size: 14px;
+  font-family: 'Cinzel', serif;
+  border: 5px double #ff9226;
+  background: #fff;
+  font-weight: bolder;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.profile-card-4 .profile-name p {
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1.5px;
+.keen-slider__slide {
+  display: flex;
+  justify-content: center;
 }
 
-.profile-card-4 .profile-description {
-  color: #777;
-  font-size: 12px;
-  padding: 10px;
+.keen-slider {
+  height: auto;
+  background-color:  #ff922645;
+  padding-bottom: 12px;
 }
-
-.profile-card-4 .profile-overview {
-  padding: 15px 0px;
-}
-
-.profile-card-4 .profile-overview p {
-  font-size: 10px;
-  font-weight: 600;
-  color: #777;
-}
-
-.profile-card-4 .profile-overview h4 {
-  color: #273751;
-  font-weight: bold;
-}
-
-.profile-card-4 .profile-content::before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  top: -10px;
-  left: 0px;
-  right: 0px;
-  background-color: #FFF;
-  z-index: 0;
-  transform: skewY(-4deg);
-}
-
-.profile-card-4:hover img {
-  transform: rotate(5deg) scale(1.1, 1.1);
-  filter: brightness(110%);
-}
-

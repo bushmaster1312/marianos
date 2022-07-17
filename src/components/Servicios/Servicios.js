@@ -4,6 +4,7 @@ import { Context } from '../../store/AppContext'
 import { BASE_URL } from '../../utils/BASE_URL'
 import "./Servicios.css"
 import loreal from "../../assets/iconos/loreal.svg"
+import hairsime from "../../assets/iconos/hair.png"
 
 const Servicios = () => {
     const { servicios, getServicios } = useContext(Context)
@@ -41,7 +42,8 @@ const Servicios = () => {
 
             </div>
             <div className=' productos'>
-                <img src={loreal} alt="sss" />
+                <img className='loreal' src={loreal} alt="sss" />
+                <img className='hair' src={hairsime} alt="ss"/>
             </div>
             </div>
 

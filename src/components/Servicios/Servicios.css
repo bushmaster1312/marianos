@@ -84,6 +84,11 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1920px) {
     .servicios-contenedor {
+        background-image: url(../../assets/fondo22.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position: fixed;
         height: auto;
         background-color: rgba(174, 177, 177, 0.341);
         display: flex;
@@ -97,8 +102,8 @@
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
-        width: 30%;
-        height: 350px;
+        width: 25%;
+        height: 500px;
         border-radius: 10px;
         background-color: #fff;
 
@@ -109,42 +114,46 @@
 
     .cards-home img {
         width: 100%;
-        height: 250px;
+        height: 350px;
 
 
     }
 
     .cards-home p {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 20px;
-        margin-top: 10px;
+        margin-top: 30px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
     }
 
-    .boton-servicios button {
-        font-family: 'Cinzel', serif;
-        font-size: 12px;
-        border: none;
-        background: rgb(255, 197, 140);
-        background: linear-gradient(71deg, rgba(255, 197, 140, 0.9808298319327731) 16%, rgba(255, 146, 38, 1) 47%);
-        border-radius: 5px;
-        color: #fff;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 10px;
-        margin-left: 40px;
-
+    
+    .boton-servicios {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
 
     }
+
+    .boton-servicios button {
+        font-family: 'Cinzel', serif;
+        border: 5px double #FF9226;
+        background: #fff;
+        font-weight: bolder;
+        color: #000;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
 
     .productos {
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
-        background-color: rgba(124, 123, 123, 0.287);
+       
     }
 
     .productos img {
@@ -197,28 +206,33 @@
         font-weight: bold;
     }
 
-    .boton-servicios button {
-        font-family: 'Cinzel', serif;
-        font-size: 12px;
-        border: none;
-        background: rgb(255, 197, 140);
-        background: linear-gradient(71deg, rgba(255, 197, 140, 0.9808298319327731) 16%, rgba(255, 146, 38, 1) 47%);
-        border-radius: 5px;
-        color: #fff;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 10px;
-        margin-left: 40px;
-
+    .boton-servicios {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
 
     }
+
+    .boton-servicios button {
+        font-family: 'Cinzel', serif;
+        border: 5px double #FF9226;
+        background: #fff;
+        font-weight: bolder;
+        color: #000;
+     
+   
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
     .productos {
+        margin-top: 50px;
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
-        background-color: rgba(124, 123, 123, 0.287);
+       
     }
 
     .productos img {
@@ -240,6 +254,8 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     .servicios-contenedor {
+        background-image: url(../../assets/fondo22.jpg);
+        background-position: center;
         height: auto;
         background-color: rgba(174, 177, 177, 0.341);
         display: flex;
@@ -278,38 +294,43 @@
         font-weight: bold;
     }
 
+    .boton-servicios {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+
+    }
+
     .boton-servicios button {
         font-family: 'Cinzel', serif;
-        font-size: 12px;
-        border: none;
-        background: rgb(255, 197, 140);
-        background: linear-gradient(71deg, rgba(255, 197, 140, 0.9808298319327731) 16%, rgba(255, 146, 38, 1) 47%);
-        border-radius: 5px;
-        color: #fff;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        border: 5px double #FF9226;
+        background: #fff;
+        font-weight: bolder;
+        color: #000;
         padding-left: 20px;
-        padding-right: 10px;
-        margin-left: 40px;
-
+        padding-right: 20px;
 
     }
 
-    .boton-servicios button:hover {
 
-        background-color: aqua;
-    }
 
     .productos {
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
-        background-color: rgba(124, 123, 123, 0.287);
+        
+        
     }
 
     .productos img {
         width: 100px;
+    }
+
+    .hair{
+     margin-left: 22px;
+     margin-top: 25px;
+     height: 45px;
     }
 
 
@@ -385,11 +406,13 @@
     }
 
     .productos {
+        margin-top: 50px;
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
-        background-color: rgba(124, 123, 123, 0.287);
+
+       
     }
 
     .productos img {
