@@ -415,6 +415,12 @@
        
     }
 
+    .hair{
+        margin-top: 25px;
+        margin-left: 20px;
+        height: 50px;
+    }
+
     .productos img {
         width: 100px;
     }

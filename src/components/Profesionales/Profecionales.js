@@ -55,7 +55,7 @@ const Profecionales = () => {
 
                             <div className="keen-slider__slide">
                                 <div className='cards' >
-                                    <img src={`${BASE_IMG}/${profecional.imagen}`} />
+                                    <img src={`${BASE_IMG}/${profecional.imagen}`} alt={profecional.descripcion} />
                                     <h3>{profecional.nombre} {profecional.apellido}</h3>
                                     <p> {profecional.descripcion}</p>
                                     <button>ver mas</button>
