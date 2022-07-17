@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Profecionales.css"
 import axios from 'axios'
 import { BASE_URL, BASE_IMG } from '../../utils/BASE_URL'
-import imagen from "../../assets/acas.png"
+
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
@@ -45,29 +45,28 @@ const Profecionales = () => {
             </div>
             <div className='container'>
                 <div ref={sliderRef} className="keen-slider ">
-                    
-                    <div class="keen-slider__slide">
-                        <div className='cards' >
-                            <img src='https://image.shutterstock.com/image-photo/smiling-small-beauty-salon-owner-600w-2059364630.jpg'/>
-                            <h3>Nombre</h3>
-                            <p> profecion</p>
-                            <button>ver mas</button>
-                        </div>                     
-                    </div>
-                    <div class="keen-slider__slide">
-                        <div className='cards' >
-                            <img src='https://image.shutterstock.com/image-photo/smiling-small-beauty-salon-owner-600w-2059364630.jpg'/>
-                           
-                        </div>                     
-                    </div>
-                    <div class="keen-slider__slide">
-                        <div className='cards' >
-                            <img src='https://image.shutterstock.com/image-photo/smiling-small-beauty-salon-owner-600w-2059364630.jpg'/>
-                           
-                        </div>                     
-                    </div>
+
+                    {
+                        getProfecio.length === 0 ? <div className="text-center">
+                            <div className="spinner-border" role="status">
+                                <span className="visually-hidden">Loading...</span>
+                            </div>
+                        </div> : getProfecio.map((profecional, idx) => (
+
+                            <div className="keen-slider__slide">
+                                <div className='cards' >
+                                    <img src={`${BASE_IMG}/${profecional.imagen}`} />
+                                    <h3>{profecional.nombre} {profecional.apellido}</h3>
+                                    <p> {profecional.descripcion}</p>
+                                    <button>ver mas</button>
+                                </div>
+                            </div>
+
+                        ))
+
+                    }
+                </div>
             </div>
-        </div>
         </div >
     )
 }
