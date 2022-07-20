@@ -2,7 +2,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import "../Navbar/Navbar.css"
-import navImagen from "../../assets/portada.png"
+
 import { useContext } from 'react'
 import { Context } from '../../store/AppContext'
 import React from 'react'
