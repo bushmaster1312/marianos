@@ -40,9 +40,9 @@ const Profecionales = () => {
 
 
         <div className='profecionales'>
-            <div className=" mt-2">
-                <h2>NUESTRAS EXPERTAS EN BELLEZA</h2>
-            </div>
+
+            <h2>NUESTRAS EXPERTAS EN BELLEZA</h2>
+
 
             <div className='container banner-profecionales'></div>
             <div className='container'>

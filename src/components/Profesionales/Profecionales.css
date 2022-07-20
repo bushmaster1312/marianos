@@ -1,8 +1,7 @@
 .profecionales {
   margin-top: 100px;
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.895);
-  height: auto;
+
 
 }
 
@@ -14,6 +13,8 @@
 }
 
 .profecionales h2 {
+
+  margin-bottom: 40px;
   font-family: 'Cinzel', serif;
   font-size: 20px;
   text-decoration: underline 2px #FF9226;

@@ -20,7 +20,7 @@ const Navbar = () => {
     setUsuario(null)
   }
   return (
-    <nav className="nav1  navbar-expand-lg navbar-light  mb-2  "  >
+    <nav className="nav1  navbar-expand-lg navbar-light  mb-2  " >
       <div className="container-fluid ">
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
