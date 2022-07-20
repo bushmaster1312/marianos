@@ -56,4 +56,12 @@
     background-color: rgb(255, 153, 20);
 }
 
-
+@media screen and (max-width:480px) {
+    .nav1{
+        background-image: url(../../assets/portada.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+}

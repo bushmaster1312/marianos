@@ -43,6 +43,8 @@ const Profecionales = () => {
             <div className=" mt-2">
                 <h2>NUESTRAS EXPERTAS EN BELLEZA</h2>
             </div>
+
+            <div className='container banner-profecionales'></div>
             <div className='container'>
                 <div ref={sliderRef} className="keen-slider ">
 

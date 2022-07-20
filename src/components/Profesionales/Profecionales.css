@@ -6,10 +6,17 @@
 
 }
 
+.banner-profecionales{
+  height: 200px;
+  background-image: url(../../assets/equipo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .profecionales h2 {
   font-family: 'Cinzel', serif;
   font-size: 20px;
-  text-decoration-line: underline  ;
+  text-decoration: underline 2px #FF9226;
 }
 
 
@@ -56,6 +63,6 @@
 
 .keen-slider {
   height: auto;
-  background-color:  #ff922645;
+  
   padding-bottom: 12px;
 }
