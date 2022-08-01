@@ -10,7 +10,7 @@ import "./Footer.css"
 
 const Footer = () => {
     const { servicios } = useContext(Context)
-    console.log(servicios)
+  
     return (
         <div className='footer'>
             <div className="container ">

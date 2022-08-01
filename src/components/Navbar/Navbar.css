@@ -24,7 +24,7 @@
 }
 .button-sesion{
     border: none;
-    background-color: rgb(255, 153, 20);
+   
     margin-top: 6px;
     
 }
@@ -53,7 +53,7 @@
 }
 
 .list-pages{
-    background-color: rgb(255, 153, 20);
+   
 }
 
 @media screen and (max-width:480px) {

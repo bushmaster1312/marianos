@@ -36,7 +36,6 @@
   height: 120px;
   border-radius: 500px;
   border: 5px double #FF9226;
-
 }
 
 
@@ -66,4 +65,44 @@
   height: auto;
   
   padding-bottom: 12px;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1920px) {
+
+
+  .banner-profecionales{
+    height: 350px;
+    background-image: url(../../assets/equipo.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cards {
+    margin-top: 60px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #FFF;
+  
+  }
+
+  .cards img {
+    margin-top: 30px;
+    width: 170px;
+    height: 170px;
+    border-radius: 500px;
+    border: 5px double #FF9226;
+  }
+  .cards button {
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+    border: 5px double #ff9226;
+    background: #fff;
+    font-weight: bolder;
+    color: #000;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  
 }

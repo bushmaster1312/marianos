@@ -14,7 +14,7 @@ const Navbar = () => {
   let user = { usuario }
 
 
-  console.log(usuario)
+
   const handleLoggOut = () => {
     window.localStorage.removeItem('correo')
     setUsuario(null)

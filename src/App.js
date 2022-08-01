@@ -23,7 +23,7 @@ function App() {
      if(loggedUserJSON){
       const user = JSON.parse(loggedUserJSON)     
       setUsuario(user)
-      console.log(user)
+  
      }
   }, [])
   
